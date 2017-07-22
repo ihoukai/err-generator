@@ -1,0 +1,9 @@
+package: .
+
+excludeDirs:
+- err-generator
+
+import:
+
+# excel解析
+- package: github.com/tealeg/xlsx                          
