@@ -15,11 +15,11 @@ import (
 type @classname int
 
 const (
-	@key-vals
+@key-vals
 )
 
 var @classnameMaps = map[int32]string{
-	@val-strs
+@val-strs
 }
 
 func (e  @classname) String() string {
@@ -33,5 +33,5 @@ func (e  @classname) String() string {
 
 var goKeyVals = `	%s @classname = %d
 `
-var goValStrs = `%d:"%s",
+var goValStrs = `	%d:"%s",
 `

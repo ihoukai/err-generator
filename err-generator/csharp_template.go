@@ -10,7 +10,7 @@ namespace @packagename
 
     public enum @classname
     {
-        @key-vals
+@key-vals
     }
 
     public static class @classnameHelper
@@ -19,7 +19,7 @@ namespace @packagename
         {
             switch (retCode)
             {
-                @val-strs
+@val-strs
             }
             return "";
         }
@@ -27,8 +27,8 @@ namespace @packagename
 }
 `
 
-var csharpKeyVals = `	%s = %d,
+var csharpKeyVals = `	    %s = %d,
 `
-var csharpValStrs = ` case @classname.%s:
-                return "%s";
+var csharpValStrs = `               case @classname.%s:
+                    return "%s";
 `
