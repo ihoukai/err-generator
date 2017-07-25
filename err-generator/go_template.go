@@ -27,7 +27,7 @@ func (e  @classname) String() string {
 	if ok {
 		return s
 	}
-	return strconv.Itoa(int32(e))
+	return strconv.Itoa(int(e))
 }
 `
 
